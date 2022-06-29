@@ -2,7 +2,7 @@ const express = require("express");
 const morgan = require("morgan");
 const layoutExpress = require("express-ejs-layouts");
 const app = express();
-const port = 3005;
+// const port = 3005;
 
 // gunakan ejs
 // third-party middleware
@@ -61,6 +61,6 @@ app.use("/", (req, res) => {
 
 //------------------------------------------------------
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Example app listening on port ${port}`);
+// });
